@@ -1,4 +1,7 @@
 $(function() {
+	$("[data-toggle=tooltip]").tooltip();
+
+
 
     $('.nav-item.dropdown').mouseenter(function() {
         $(this).addClass('show');

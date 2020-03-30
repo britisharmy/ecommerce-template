@@ -7,9 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>E-Commerce Template</title>
 
-    <link href="//fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
-    <link href="//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700" rel="stylesheet">
-    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i" rel="stylesheet">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
@@ -22,7 +19,7 @@
             <div class="col-12">
                 <header class="row">
                     <!-- Top Nav -->
-                    <div class="col-12 bg-dark py-2 d-md-block d-none">
+                    <div class="col-12 bg-dark py-2 d-md-block d-none fixed-top">
                         <div class="row">
                             <div class="col-auto mr-auto">
                                 <ul class="top-nav">
@@ -34,26 +31,53 @@
                                     </li>
                                 </ul>
                             </div>
+							<div class="col-auto">
+							<ul class="top-nav">
+                                    <li>
+                                      <div class="float-right">
+									  <i class="fa fa-flag mr-2 gw"> Language</i>
+                                      <select class="mright"><option>Choose Language</option><option>English</option></select>
+                                    </div>
+                                    </li>
+                                    <li>
+									
+                                        <div class="float-right">
+										<i class="fa fa-credit-card mr-2 gw"> Currency</i>
+                                      <select class="mright"><option>Choose Currency</option><option>English</option></select>
+                                    </div>
+                                    </li>
+                                </ul>
+								
+									
+									
+                            </div>
                             <div class="col-auto">
                                 <ul class="top-nav">
+								<li>
+                                        <a href="myaccount.html"><i class="fas fa-user mr-2"></i>My Account</a>
+                                    </li>
                                     <li>
-                                        <a href="register.html"><i class="fas fa-user-edit mr-2"></i>Register</a>
+                                        <a href="register.html"><i class="fas fa-file mr-2"></i>Register</a>
                                     </li>
                                     <li>
                                         <a href="login.html"><i class="fas fa-sign-in-alt mr-2"></i>Login</a>
-                                    </li>
+                                    </li>									
                                 </ul>
                             </div>
                         </div>
+
                     </div>
                     <!-- Top Nav -->
+	
 
                     <!-- Header -->
                     <div class="col-12 bg-white pt-4">
+					<br/>
+					<br/>
                         <div class="row">
                             <div class="col-lg-auto">
                                 <div class="site-logo text-center text-lg-left">
-                                    <a href="index.html">E-Commerce</a>
+                                    <a href="index.html">Shopper</a>
                                 </div>
                             </div>
                             <div class="col-lg-5 mx-auto mt-4 mt-lg-0">
@@ -72,9 +96,8 @@
                                 <a href="#" class="header-item">
                                     <i class="fas fa-heart mr-2"></i><span id="header-favorite">0</span>
                                 </a>
-                                <a href="#" class="header-item">
+                                <a href="cart.html" class="header-item">
                                     <i class="fas fa-shopping-bag mr-2"></i><span id="header-qty" class="mr-3">2</span>
-                                    <i class="fas fa-money-bill-wave mr-2"></i><span id="header-price">$4,000</span>
                                 </a>
                             </div>
                         </div>
@@ -90,35 +113,14 @@
                                         <li class="nav-item active">
                                             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                                         </li>
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" id="electronics" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Electronics</a>
-                                            <div class="dropdown-menu" aria-labelledby="electronics">
-                                                <a class="dropdown-item" href="category.html">Computers</a>
-                                                <a class="dropdown-item" href="category.html">Mobile Phones</a>
-                                                <a class="dropdown-item" href="category.html">Television Sets</a>
-                                                <a class="dropdown-item" href="category.html">DSLR Cameras</a>
-                                                <a class="dropdown-item" href="category.html">Projectors</a>
-                                            </div>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="category.html" id="electronics"  aria-haspopup="true" aria-expanded="false">Goods</a>
                                         </li>
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" id="fashion" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Fashion</a>
-                                            <div class="dropdown-menu" aria-labelledby="fashion">
-                                                <a class="dropdown-item" href="category.html">Men's</a>
-                                                <a class="dropdown-item" href="category.html">Women's</a>
-                                                <a class="dropdown-item" href="category.html">Children's</a>
-                                                <a class="dropdown-item" href="category.html">Accessories</a>
-                                                <a class="dropdown-item" href="category.html">Footwear</a>
-                                            </div>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="category.html" id="fashion"  aria-haspopup="true" aria-expanded="false">Services</a>
                                         </li>
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" id="books" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Books</a>
-                                            <div class="dropdown-menu" aria-labelledby="books">
-                                                <a class="dropdown-item" href="category.html">Adventure</a>
-                                                <a class="dropdown-item" href="category.html">Horror</a>
-                                                <a class="dropdown-item" href="category.html">Romantic</a>
-                                                <a class="dropdown-item" href="category.html">Children's</a>
-                                                <a class="dropdown-item" href="category.html">Non-Fiction</a>
-                                            </div>
+                                        <li class="nav-item ">
+                                            <a class="nav-link" href="category.html" id="books" aria-haspopup="true" aria-expanded="false">Tasks</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -130,7 +132,7 @@
                     <!-- Header -->
 
                 </header>
-            </div>
+        </div>
 
             <div class="col-12">
                 <!-- Main Content -->
@@ -237,9 +239,7 @@
                                     <div class="col-12">
                                         <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
                                         <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-                                        <a href="#" class="social-icon"><i class="fab fa-pinterest-p"></i></a>
                                         <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-                                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
                                     </div>
                                 </div>
                             </div>

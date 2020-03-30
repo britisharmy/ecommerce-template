@@ -11,6 +11,28 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
+	<style>
+		  /*
+ *  STYLE 3
+ */
+
+#style-3::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+#style-3::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+#style-3::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+}
+	</style>
 </head>
 <body>
     <div class="container-fluid">
@@ -138,55 +160,85 @@
                 <!-- Main Content -->
                 <div class="row">
                     <div class="col-12 mt-3 text-center text-uppercase">
-                        <h2>Login</h2>
+                        <h2>My Account</h2>
                     </div>
                 </div>
 
-                <main class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-8 mx-auto bg-white py-3 mb-4">
-                        <div class="row">
-                            <div class="col-12">
-                                <form>
-                                    <div class="form-group">
-                                        <label for="email">Login With Twitter</label><br/>
-                                        <a href="#" class="social-icon text-danger"><i class="fab fa-twitter"></i></a>
-                                    </div>
-									<div class="form-group">
-                                        <label for="email">Login With Facebook</label><br/>
-                                        <a href="#" class="social-icon text-danger"><i class="fab fa-facebook"></i></a>
-                                    </div>
-									<div class="form-group">
-                                        <label for="email">Login With Google</label><br/>
-                                        <a href="#" class="social-icon text-danger"><i class="fab fa-google"></i></a>
-                                    </div>
-                                    
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-					
-					 <div class="col-lg-4 col-md-6 col-sm-8 mx-auto bg-white py-3 mb-4">
-                        <div class="row">
-                            <div class="col-12">
-                                <form>
-                                    <div class="form-group">
-                                        <label for="email">Email</label>
-                                        <input type="email" id="email" class="form-control" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="password">Password</label>
-                                        <input type="password" id="password" class="form-control" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <button type="submit" class="btn btn-outline-dark float-right">Login</button><br/>
-										<br/><hr/>
-										<button type="submit" class="btn btn-outline-dark float-left">Forgot password</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
+                <main class="col-md-12">
+                  
+				 <div class="card  tab-card">
+        <div class="card-header tab-card-header">
+          <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="one-tab" data-toggle="tab" href="#one" role="tab" aria-controls="One" aria-selected="true">Personal</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="two-tab" data-toggle="tab" href="#two" role="tab" aria-controls="Two" aria-selected="false">Account</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="three-tab" data-toggle="tab" href="#three" role="tab" aria-controls="Three" aria-selected="false">Password</a>
+            </li>
+			<li class="nav-item">
+                <a class="nav-link" id="four-tab" data-toggle="tab" href="#four" role="tab" aria-controls="Three" aria-selected="false">Billing</a>
+            </li>
+			<li class="nav-item">
+                <a class="nav-link" id="five-tab" data-toggle="tab" href="#five" role="tab" aria-controls="Three" aria-selected="false">KYC</a>
+            </li>
+			<li class="nav-item">
+                <a class="nav-link" id="six-tab" data-toggle="tab" href="#six" role="tab" aria-controls="Three" aria-selected="false">History</a>
+            </li>
+			<li class="nav-item">
+                <a class="nav-link" id="seven-tab" data-toggle="tab" href="#seven" role="tab" aria-controls="Three" aria-selected="false">Api</a>
+            </li>
+			<li class="nav-item">
+                <a class="nav-link" id="eight-tab" data-toggle="tab" href="#eight" role="tab" aria-controls="Three" aria-selected="false">Cards</a>
+            </li>
+			<li class="nav-item">
+                <a class="nav-link" id="nine-tab" data-toggle="tab" href="#nine" role="tab" aria-controls="Three" aria-selected="false">Notifications</a>
+            </li>
+          </ul>
+        </div>
 
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active p-3" id="one" role="tabpanel" aria-labelledby="one-tab">
+		  
+		  <select class="form-control col-md-3 float-right mright"><option>Sort By Age Ascending</option><option>Sort By Age Descending</option><option>Sort By Latest</option></select>
+		  <select class="form-control col-md-3 float-right mright"><option>Sort By Categories</option><option>Tshirts</option><option>Jackets</option><option>Sneakers</option></select>
+		  <br/>
+		   One	  
+          </div>
+          <div class="tab-pane fade p-3" id="two" role="tabpanel" aria-labelledby="two-tab">
+		  Two
+          </div>
+          <div class="tab-pane fade p-3" id="three" role="tabpanel" aria-labelledby="three-tab">
+		  Three		
+          </div>
+		   <div class="tab-pane fade p-3" id="four" role="tabpanel" aria-labelledby="four-tab">
+          Four
+                         
+          </div>
+		  <div class="tab-pane fade p-3" id="five" role="tabpanel" aria-labelledby="five-tab">
+		  Five	
+          </div>
+		  <div class="tab-pane fade p-3" id="six" role="tabpanel" aria-labelledby="six-tab">
+            Six         
+          </div>
+		   <div class="tab-pane fade p-3" id="seven" role="tabpanel" aria-labelledby="seven-tab">
+		   Seven		
+          </div>
+		  <div class="tab-pane fade p-3" id="eight" role="tabpanel" aria-labelledby="eight-tab">
+		  Eight	
+          </div>
+		  
+		  <div class="tab-pane fade p-3" id="nine" role="tabpanel" aria-labelledby="eight-tab">
+           Nine	
+          </div>
+
+        </div>
+		</form>
+      </div>
+          <br/>
+          <br/>
                 </main>
                 <!-- Main Content -->
             </div>

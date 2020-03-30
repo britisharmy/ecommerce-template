@@ -7,129 +7,131 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>E-Commerce Template</title>
 
-    <link href="//fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
-    <link href="//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700" rel="stylesheet">
-    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i" rel="stylesheet">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="container-fluid">
+    <div class="container-fluid">
 
-    <div class="row min-vh-100">
-        <div class="col-12">
-            <header class="row">
-                <!-- Top Nav -->
-                <div class="col-12 bg-dark py-2 d-md-block d-none">
-                    <div class="row">
-                        <div class="col-auto mr-auto">
-                            <ul class="top-nav">
-                                <li>
-                                    <a href="tel:+123-456-7890"><i class="fa fa-phone-square mr-2"></i>+123-456-7890</a>
-                                </li>
-                                <li>
-                                    <a href="mailto:mail@ecom.com"><i class="fa fa-envelope mr-2"></i>mail@ecom.com</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-auto">
-                            <ul class="top-nav">
-                                <li>
-                                    <a href="register.html"><i class="fas fa-user-edit mr-2"></i>Register</a>
-                                </li>
-                                <li>
-                                    <a href="login.html"><i class="fas fa-sign-in-alt mr-2"></i>Login</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- Top Nav -->
-
-                <!-- Header -->
-                <div class="col-12 bg-white pt-4">
-                    <div class="row">
-                        <div class="col-lg-auto">
-                            <div class="site-logo text-center text-lg-left">
-                                <a href="index.html">E-Commerce</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-5 mx-auto mt-4 mt-lg-0">
-                            <form action="#">
-                                <div class="form-group">
-                                    <div class="input-group">
-                                        <input type="search" class="form-control border-dark" placeholder="Search..." required>
-                                        <div class="input-group-append">
-                                            <button class="btn btn-outline-dark"><i class="fas fa-search"></i></button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="col-lg-auto text-center text-lg-left header-item-holder">
-                            <a href="#" class="header-item">
-                                <i class="fas fa-heart mr-2"></i><span id="header-favorite">0</span>
-                            </a>
-                            <a href="#" class="header-item">
-                                <i class="fas fa-shopping-bag mr-2"></i><span id="header-qty" class="mr-3">2</span>
-                                <i class="fas fa-money-bill-wave mr-2"></i><span id="header-price">$4,000</span>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Nav -->
-                    <div class="row">
-                        <nav class="navbar navbar-expand-lg navbar-light bg-white col-12">
-                            <button class="navbar-toggler d-lg-none border-0" type="button" data-toggle="collapse" data-target="#mainNav">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="mainNav">
-                                <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
-                                    <li class="nav-item active">
-                                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        <div class="row min-vh-100">
+            <div class="col-12">
+                <header class="row">
+                    <!-- Top Nav -->
+                    <div class="col-12 bg-dark py-2 d-md-block d-none fixed-top">
+                        <div class="row">
+                            <div class="col-auto mr-auto">
+                                <ul class="top-nav">
+                                    <li>
+                                        <a href="tel:+123-456-7890"><i class="fa fa-phone-square mr-2"></i>+123-456-7890</a>
                                     </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="electronics" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Electronics</a>
-                                        <div class="dropdown-menu" aria-labelledby="electronics">
-                                            <a class="dropdown-item" href="category.html">Computers</a>
-                                            <a class="dropdown-item" href="category.html">Mobile Phones</a>
-                                            <a class="dropdown-item" href="category.html">Television Sets</a>
-                                            <a class="dropdown-item" href="category.html">DSLR Cameras</a>
-                                            <a class="dropdown-item" href="category.html">Projectors</a>
-                                        </div>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="fashion" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Fashion</a>
-                                        <div class="dropdown-menu" aria-labelledby="fashion">
-                                            <a class="dropdown-item" href="category.html">Men's</a>
-                                            <a class="dropdown-item" href="category.html">Women's</a>
-                                            <a class="dropdown-item" href="category.html">Children's</a>
-                                            <a class="dropdown-item" href="category.html">Accessories</a>
-                                            <a class="dropdown-item" href="category.html">Footwear</a>
-                                        </div>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="books" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Books</a>
-                                        <div class="dropdown-menu" aria-labelledby="books">
-                                            <a class="dropdown-item" href="category.html">Adventure</a>
-                                            <a class="dropdown-item" href="category.html">Horror</a>
-                                            <a class="dropdown-item" href="category.html">Romantic</a>
-                                            <a class="dropdown-item" href="category.html">Children's</a>
-                                            <a class="dropdown-item" href="category.html">Non-Fiction</a>
-                                        </div>
+                                    <li>
+                                        <a href="mailto:mail@ecom.com"><i class="fa fa-envelope mr-2"></i>mail@ecom.com</a>
                                     </li>
                                 </ul>
                             </div>
-                        </nav>
+							<div class="col-auto">
+							<ul class="top-nav">
+                                    <li>
+                                      <div class="float-right">
+									  <i class="fa fa-flag mr-2 gw"> Language</i>
+                                      <select class="mright"><option>Choose Language</option><option>English</option></select>
+                                    </div>
+                                    </li>
+                                    <li>
+									
+                                        <div class="float-right">
+										<i class="fa fa-credit-card mr-2 gw"> Currency</i>
+                                      <select class="mright"><option>Choose Currency</option><option>English</option></select>
+                                    </div>
+                                    </li>
+                                </ul>
+								
+									
+									
+                            </div>
+                            <div class="col-auto">
+                                <ul class="top-nav">
+								<li>
+                                        <a href="myaccount.html"><i class="fas fa-user mr-2"></i>My Account</a>
+                                    </li>
+                                    <li>
+                                        <a href="register.html"><i class="fas fa-file mr-2"></i>Register</a>
+                                    </li>
+                                    <li>
+                                        <a href="login.html"><i class="fas fa-sign-in-alt mr-2"></i>Login</a>
+                                    </li>									
+                                </ul>
+                            </div>
+                        </div>
+
                     </div>
-                    <!-- Nav -->
+                    <!-- Top Nav -->
+	
 
-                </div>
-                <!-- Header -->
+                    <!-- Header -->
+                    <div class="col-12 bg-white pt-4">
+					<br/>
+					<br/>
+                        <div class="row">
+                            <div class="col-lg-auto">
+                                <div class="site-logo text-center text-lg-left">
+                                    <a href="index.html">Shopper</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 mx-auto mt-4 mt-lg-0">
+                                <form action="#">
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <input type="search" class="form-control border-dark" placeholder="Search..." required>
+                                            <div class="input-group-append">
+                                                <button class="btn btn-outline-dark"><i class="fas fa-search"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-lg-auto text-center text-lg-left header-item-holder">
+                                <a href="#" class="header-item">
+                                    <i class="fas fa-heart mr-2"></i><span id="header-favorite">0</span>
+                                </a>
+                                <a href="cart.html" class="header-item">
+                                    <i class="fas fa-shopping-bag mr-2"></i><span id="header-qty" class="mr-3">2</span>
+                                </a>
+                            </div>
+                        </div>
 
-            </header>
+                        <!-- Nav -->
+                        <div class="row">
+                            <nav class="navbar navbar-expand-lg navbar-light bg-white col-12">
+                                <button class="navbar-toggler d-lg-none border-0" type="button" data-toggle="collapse" data-target="#mainNav">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="mainNav">
+                                    <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="category.html" id="electronics"  aria-haspopup="true" aria-expanded="false">Goods</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="category.html" id="fashion"  aria-haspopup="true" aria-expanded="false">Services</a>
+                                        </li>
+                                        <li class="nav-item ">
+                                            <a class="nav-link" href="category.html" id="books" aria-haspopup="true" aria-expanded="false">Tasks</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <!-- Nav -->
+
+                    </div>
+                    <!-- Header -->
+
+                </header>
         </div>
 
         <div class="col-12">
@@ -140,654 +142,814 @@
                 <div class="col-12">
                     <div class="row">
                         <div class="col-12 py-3">
+
                             <div class="row">
-                                <div class="col-12 text-center text-uppercase">
-                                    <h2>Computers</h2>
+							<div class="col-md-12">
+							<nav  class="">
+    <ol class="breadcrumb bg-default col-md-3 float-left">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item"><a href="#">Products</a></li>
+        <li class="breadcrumb-item active">Accessories</li>
+    </ol>
+	<ul class="pagination float-right">
+        <li class="page-item disabled"><a href="#" class="page-link" tabindex="-1">Previous</a></li>
+        <li class="page-item active"><a href="#" class="page-link">1</a></li>
+        <li class="page-item"><a href="#" class="page-link">2</a></li>
+        <li class="page-item"><a href="#" class="page-link">3</a></li>
+        <li class="page-item"><a href="#" class="page-link">4</a></li>
+        <li class="page-item"><a href="#" class="page-link">5</a></li>
+        <li class="page-item"><a href="#" class="page-link">Next</a></li>
+    </ul>
+</nav>
+							</div>
+							<div class="col-md-3">
+  <div class="card">
+  <h5 class="card-header">Filters</h5>
+  <div class="card-body">
+    <div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Search for accounts" aria-label="Accounts" aria-describedby="basic-addon2">
+  <div class="input-group-append">
+    <span class="input-group-text" id="basic-addon2">Search</span>
+  </div>
+</div>
+<h5 class="card-title">Categories</h5>
+<ul class="list-group mh" id="style-3">
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Adam Cole
+    <span class="badge badge-primary badge-pill">5</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Finn Balor
+    <span class="badge badge-primary badge-pill">5</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Pete Dunne
+    <span class="badge badge-primary badge-pill">5</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Jordan Devlin
+    <span class="badge badge-primary badge-pill">5</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Noam Dar
+    <span class="badge badge-primary badge-pill">5</span>
+  </li>
+</ul>
+<br/>
+<h5 class="card-title">Filters</h5>
+<ul class="list-group">
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    <span class="labele">Gender</span>
+    <select class="form-control"><option>Female</option><option>Male</option></select>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+   <span class="labele">City</span>
+    <select class="form-control"><option>London</option><option>Manchester</option><option>Leeds</option><option>Bristol</option></select>
+  </li>
+ <li class="list-group-item d-flex justify-content-between align-items-center">
+   <span class="labele">Model</span>
+    <select class="form-control"><option>Iphone</option><option>Nokia</option><option>Huawei</option><option>Samsung</option></select>
+  </li>
+  <button class="btn btn-primary">Filter</button>
+</ul>
+
+
+  </div>
+</div>
+  </div>
+							
+							<div class="col-md-9">
+							  <div class="card">
+							  <div class="card-header"><div class="float-left col-md-3"><span class="pr">Products</span></div>
+		<div class="input-group col-md-3 float-right">
+            <input type="text" class="form-control" placeholder="Search...">
+            <div class="input-group-append">
+                <button type="button" class="btn btn-secondary">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+        </div>
+		<div class="float-right col-md-3"><select class="form-control"><option>Sort</option><option>Price Low to High</option><option>Price High to Low</option></select></div>
+		</div>
+							  <div class="card-body">
+  
+                            <div class="row">
+                                <!-- Product -->
+                                <div class="col-md-3">
+                                    <div class="col-12 bg-white text-center h-100 product-item">
+                                        <div class="row h-100">
+                                            <div class="col-12 p-0 mb-3">
+                                                <a href="product.html">
+                                                    <img src="images/image-1.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b>Sizes available</b> <br> <ol><li>1</li><li>2</li></ol>">
+                                                </a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                <a href="product.html" class="product-name">Sony Alpha DSLR Camera</a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                    <span class="product-price-old">
+                                                        $500
+                                                    </span>
+                                                <br>
+                                                <span class="product-price">
+                                                        $500
+                                                    </span>
+                                            </div>
+                                            <div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
+                                            </div>
+											<div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-heart mr-2"></i>Add to wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
+                                <!-- Product -->
+
+                                <!-- Product -->
+                                 <div class="col-md-3">
+                                    <div class="col-12 bg-white text-center h-100 product-item">
+                                        <div class="row h-100">
+                                            <div class="col-12 p-0 mb-3">
+                                                <a href="product.html">
+                                                    <img src="images/image-2.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b>Sizes available</b> <br> <ol><li>1</li><li>2</li></ol>">
+                                                </a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                <a href="product.html" class="product-name">Optoma 4K HDR Projector</a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                    <span class="product-price">
+                                                        $1,500
+                                                    </span>
+                                            </div>
+                                            <div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
+                                            </div>
+											<div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-heart mr-2"></i>Add to wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Product -->
+
+                                <!-- Product -->
+                                 <div class="col-md-3">
+                                    <div class="col-12 bg-white text-center h-100 product-item">
+                                        <div class="row h-100">
+                                            <div class="col-12 p-0 mb-3">
+                                                <a href="product.html">
+                                                    <img src="images/image-3.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b>Sizes available</b> <br> <ol><li>1</li><li>2</li></ol>">
+                                                </a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                <a href="product.html" class="product-name">HP Envy Specter 360</a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                <div class="product-price-old">
+                                                    $2,800
+                                                </div>
+                                                <span class="product-price">
+                                                        $2,500
+                                                    </span>
+                                            </div>
+                                            <div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
+                                            </div>
+											<div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-heart mr-2"></i>Add to wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Product -->
+
+                                <!-- Product -->
+                               <div class="col-md-3">
+                                    <div class="col-12 bg-white text-center h-100 product-item">
+                                        <div class="row h-100">
+                                            <div class="col-12 p-0 mb-3">
+                                                <a href="product.html">
+                                                    <img src="images/image-4.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b>Sizes available</b> <br> <ol><li>1</li><li>2</li></ol>">
+                                                </a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                <a href="product.html" class="product-name">Dell Alienware Area 51</a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                    <span class="product-price">
+                                                        $4,500
+                                                    </span>
+                                            </div>
+                                            <div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
+                                            </div>
+											<div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-heart mr-2"></i>Add to wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Product -->
+
+                                <!-- Product -->
+                                <div class="col-md-3">
+                                    <div class="col-12 bg-white text-center h-100 product-item">
+                                        <div class="row h-100">
+                                            <div class="col-12 p-0 mb-3">
+                                                <a href="product.html">
+                                                    <img src="images/image-1.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b>Sizes available</b> <br> <ol><li>1</li><li>2</li></ol>">
+                                                </a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                <a href="product.html" class="product-name">Sony Alpha DSLR Camera</a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                    <span class="product-price-old">
+                                                        $500
+                                                    </span>
+                                                <br>
+                                                <span class="product-price">
+                                                        $500
+                                                    </span>
+                                            </div>
+                                            <div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
+                                            </div>
+											<div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-heart mr-2"></i>Add to wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Product -->
+
+                                <!-- Product -->
+                                <div class="col-md-3">
+                                    <div class="col-12 bg-white text-center h-100 product-item">
+                                        <div class="row h-100">
+                                            <div class="col-12 p-0 mb-3">
+                                                <a href="product.html">
+                                                    <img src="images/image-2.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b>Sizes available</b> <br> <ol><li>1</li><li>2</li></ol>">
+                                                </a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                <a href="product.html" class="product-name">Optoma 4K HDR Projector</a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                    <span class="product-price">
+                                                        $1,500
+                                                    </span>
+                                            </div>
+                                            <div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
+                                            </div>
+											<div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-heart mr-2"></i>Add to wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Product -->
+
+                                <!-- Product -->
+                                <div class="col-md-3">
+                                    <div class="col-12 bg-white text-center h-100 product-item">
+                                        <div class="row h-100">
+                                            <div class="col-12 p-0 mb-3">
+                                                <a href="product.html">
+                                                    <img src="images/image-3.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b>Sizes available</b> <br> <ol><li>1</li><li>2</li></ol>">
+                                                </a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                <a href="product.html" class="product-name">HP Envy Specter 360</a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                <div class="product-price-old">
+                                                    $2,800
+                                                </div>
+                                                <span class="product-price">
+                                                        $2,500
+                                                    </span>
+                                            </div>
+                                            <div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
+                                            </div>
+											<div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-heart mr-2"></i>Add to wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Product -->
+
+                                <!-- Product -->
+                                <div class="col-md-3">
+                                    <div class="col-12 bg-white text-center h-100 product-item">
+                                        <div class="row h-100">
+                                            <div class="col-12 p-0 mb-3">
+                                                <a href="product.html">
+                                                    <img src="images/image-4.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b>Sizes available</b> <br> <ol><li>1</li><li>2</li></ol>">
+                                                </a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                <a href="product.html" class="product-name">Dell Alienware Area 51</a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                    <span class="product-price">
+                                                        $4,500
+                                                    </span>
+                                            </div>
+                                            <div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
+                                            </div>
+											<div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-heart mr-2"></i>Add to wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Product -->
+
+                                <!-- Product -->
+                                <div class="col-md-3">
+                                    <div class="col-12 bg-white text-center h-100 product-item">
+                                        <div class="row h-100">
+                                            <div class="col-12 p-0 mb-3">
+                                                <a href="product.html">
+                                                    <img src="images/image-1.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b>Sizes available</b> <br> <ol><li>1</li><li>2</li></ol>">
+                                                </a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                <a href="product.html" class="product-name">Sony Alpha DSLR Camera</a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                    <span class="product-price-old">
+                                                        $500
+                                                    </span>
+                                                <br>
+                                                <span class="product-price">
+                                                        $500
+                                                    </span>
+                                            </div>
+                                            <div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
+                                            </div>
+											<div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-heart mr-2"></i>Add to wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Product -->
+
+                                <!-- Product -->
+                                <div class="col-md-3">
+                                    <div class="col-12 bg-white text-center h-100 product-item">
+                                        <div class="row h-100">
+                                            <div class="col-12 p-0 mb-3">
+                                                <a href="product.html">
+                                                    <img src="images/image-2.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b>Sizes available</b> <br> <ol><li>1</li><li>2</li></ol>">
+                                                </a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                <a href="product.html" class="product-name">Optoma 4K HDR Projector</a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                    <span class="product-price">
+                                                        $1,500
+                                                    </span>
+                                            </div>
+                                            <div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
+                                            </div>
+											<div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-heart mr-2"></i>Add to wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Product -->
+
+                                <!-- Product -->
+                                <div class="col-md-3">
+                                    <div class="col-12 bg-white text-center h-100 product-item">
+                                        <div class="row h-100">
+                                            <div class="col-12 p-0 mb-3">
+                                                <a href="product.html">
+                                                    <img src="images/image-3.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b>Sizes available</b> <br> <ol><li>1</li><li>2</li></ol>">
+                                                </a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                <a href="product.html" class="product-name">HP Envy Specter 360</a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                <div class="product-price-old">
+                                                    $2,800
+                                                </div>
+                                                <span class="product-price">
+                                                        $2,500
+                                                    </span>
+                                            </div>
+                                            <div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
+                                            </div>
+											<div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-heart mr-2"></i>Add to wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Product -->
+
+                                <!-- Product -->
+                               <div class="col-md-3">
+                                    <div class="col-12 bg-white text-center h-100 product-item">
+                                        <div class="row h-100">
+                                            <div class="col-12 p-0 mb-3">
+                                                <a href="product.html">
+                                                    <img src="images/image-4.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b>Sizes available</b> <br> <ol><li>1</li><li>2</li></ol>">
+                                                </a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                <a href="product.html" class="product-name">Dell Alienware Area 51</a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                    <span class="product-price">
+                                                        $4,500
+                                                    </span>
+                                            </div>
+                                            <div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
+                                            </div>
+											<div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-heart mr-2"></i>Add to wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Product -->
+
+                                <!-- Product -->
+                               <div class="col-md-3">
+                                    <div class="col-12 bg-white text-center h-100 product-item">
+                                        <div class="row h-100">
+                                            <div class="col-12 p-0 mb-3">
+                                                <a href="product.html">
+                                                    <img src="images/image-1.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b>Sizes available</b> <br> <ol><li>1</li><li>2</li></ol>">
+                                                </a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                <a href="product.html" class="product-name">Sony Alpha DSLR Camera</a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                    <span class="product-price-old">
+                                                        $500
+                                                    </span>
+                                                <br>
+                                                <span class="product-price">
+                                                        $500
+                                                    </span>
+                                            </div>
+                                            <div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
+                                            </div>
+											<div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-heart mr-2"></i>Add to wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Product -->
+
+                                <!-- Product -->
+                                <div class="col-md-3">
+                                    <div class="col-12 bg-white text-center h-100 product-item">
+                                        <div class="row h-100">
+                                            <div class="col-12 p-0 mb-3">
+                                                <a href="product.html">
+                                                    <img src="images/image-2.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b>Sizes available</b> <br> <ol><li>1</li><li>2</li></ol>">
+                                                </a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                <a href="product.html" class="product-name">Optoma 4K HDR Projector</a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                    <span class="product-price">
+                                                        $1,500
+                                                    </span>
+                                            </div>
+                                            <div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
+                                            </div>
+											<div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-heart mr-2"></i>Add to wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Product -->
+
+                                <!-- Product -->
+                               <div class="col-md-3">
+                                    <div class="col-12 bg-white text-center h-100 product-item">
+                                        <div class="row h-100">
+                                            <div class="col-12 p-0 mb-3">
+                                                <a href="product.html">
+                                                    <img src="images/image-3.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b>Sizes available</b> <br> <ol><li>1</li><li>2</li></ol>">
+                                                </a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                <a href="product.html" class="product-name">HP Envy Specter 360</a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                <div class="product-price-old">
+                                                    $2,800
+                                                </div>
+                                                <span class="product-price">
+                                                        $2,500
+                                                    </span>
+                                            </div>
+                                            <div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
+                                            </div>
+											<div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-heart mr-2"></i>Add to wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Product -->
+
+                                <!-- Product -->
+                                <div class="col-md-3">
+                                    <div class="col-12 bg-white text-center h-100 product-item">
+                                        <div class="row h-100">
+                                            <div class="col-12 p-0 mb-3">
+                                                <a href="product.html">
+                                                    <img src="images/image-4.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b>Sizes available</b> <br> <ol><li>1</li><li>2</li></ol>">
+                                                </a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                <a href="product.html" class="product-name">Dell Alienware Area 51</a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                    <span class="product-price">
+                                                        $4,500
+                                                    </span>
+                                            </div>
+                                            <div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
+                                            </div>
+											<div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-heart mr-2"></i>Add to wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Product -->
+
+                                <!-- Product -->
+                                <div class="col-md-3">
+                                    <div class="col-12 bg-white text-center h-100 product-item">
+                                        <div class="row h-100">
+                                            <div class="col-12 p-0 mb-3">
+                                                <a href="product.html">
+                                                    <img src="images/image-3.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b>Sizes available</b> <br> <ol><li>1</li><li>2</li></ol>">
+                                                </a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                <a href="product.html" class="product-name">HP Envy Specter 360</a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                <div class="product-price-old">
+                                                    $2,800
+                                                </div>
+                                                <span class="product-price">
+                                                        $2,500
+                                                    </span>
+                                            </div>
+                                            <div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
+                                            </div>
+											<div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-heart mr-2"></i>Add to wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Product -->
+
+                                <!-- Product -->
+                                <div class="col-md-3">
+                                    <div class="col-12 bg-white text-center h-100 product-item">
+                                        <div class="row h-100">
+                                            <div class="col-12 p-0 mb-3">
+                                                <a href="product.html">
+                                                    <img src="images/image-4.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b>Sizes available</b> <br> <ol><li>1</li><li>2</li></ol>">
+                                                </a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                <a href="product.html" class="product-name">Dell Alienware Area 51</a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                    <span class="product-price">
+                                                        $4,500
+                                                    </span>
+                                            </div>
+                                            <div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
+                                            </div>
+											<div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-heart mr-2"></i>Add to wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Product -->
+
+                                <!-- Product -->
+                                <div class="col-md-3">
+                                    <div class="col-12 bg-white text-center h-100 product-item">
+                                        <div class="row h-100">
+                                            <div class="col-12 p-0 mb-3">
+                                                <a href="product.html">
+                                                    <img src="images/image-1.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b>Sizes available</b> <br> <ol><li>1</li><li>2</li></ol>">
+                                                </a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                <a href="product.html" class="product-name">Sony Alpha DSLR Camera</a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                    <span class="product-price-old">
+                                                        $500
+                                                    </span>
+                                                <br>
+                                                <span class="product-price">
+                                                        $500
+                                                    </span>
+                                            </div>
+                                            <div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
+                                            </div>
+											<div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-heart mr-2"></i>Add to wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Product -->
+
+                                <!-- Product -->
+                               <div class="col-md-3">
+                                    <div class="col-12 bg-white text-center h-100 product-item">
+                                        <div class="row h-100">
+                                            <div class="col-12 p-0 mb-3">
+                                                <a href="product.html">
+                                                    <img src="images/image-2.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b>Sizes available</b> <br> <ol><li>1</li><li>2</li></ol>">
+                                                </a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                <a href="product.html" class="product-name">Optoma 4K HDR Projector</a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                    <span class="product-price">
+                                                        $1,500
+                                                    </span>
+                                            </div>
+                                            <div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
+                                            </div>
+											<div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-heart mr-2"></i>Add to wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Product -->
+
+                                <!-- Product -->
+                               <div class="col-md-3">
+                                    <div class="col-12 bg-white text-center h-100 product-item">
+                                        <div class="row h-100">
+                                            <div class="col-12 p-0 mb-3">
+                                                <a href="product.html">
+                                                    <img src="images/image-3.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b>Sizes available</b> <br> <ol><li>1</li><li>2</li></ol>">
+                                                </a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                <a href="product.html" class="product-name">HP Envy Specter 360</a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                <div class="product-price-old">
+                                                    $2,800
+                                                </div>
+                                                <span class="product-price">
+                                                        $2,500
+                                                    </span>
+                                            </div>
+                                            <div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
+                                            </div>
+											<div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-heart mr-2"></i>Add to wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Product -->
+
+                                <!-- Product -->
+                                <div class="col-md-3">
+                                    <div class="col-12 bg-white text-center h-100 product-item">
+                                        <div class="row h-100">
+                                            <div class="col-12 p-0 mb-3">
+                                                <a href="product.html">
+                                                    <img src="images/image-4.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b>Sizes available</b> <br> <ol><li>1</li><li>2</li></ol>">
+                                                </a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                <a href="product.html" class="product-name">Dell Alienware Area 51</a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                    <span class="product-price">
+                                                        $4,500
+                                                    </span>
+                                            </div>
+                                            <div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
+                                            </div>
+											<div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-heart mr-2"></i>Add to wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Product -->
+
+                                <!-- Product -->
+                                <div class="col-md-3">
+                                    <div class="col-12 bg-white text-center h-100 product-item">
+                                        <div class="row h-100">
+                                            <div class="col-12 p-0 mb-3">
+                                                <a href="product.html">
+                                                    <img src="images/image-3.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b>Sizes available</b> <br> <ol><li>1</li><li>2</li></ol>">
+                                                </a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                <a href="product.html" class="product-name">HP Envy Specter 360</a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                <div class="product-price-old">
+                                                    $2,800
+                                                </div>
+                                                <span class="product-price">
+                                                        $2,500
+                                                    </span>
+                                            </div>
+                                            <div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
+                                            </div>
+											<div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-heart mr-2"></i>Add to wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Product -->
+
+                                <!-- Product -->
+                                <div class="col-md-3">
+                                    <div class="col-12 bg-white text-center h-100 product-item">
+                                        <div class="row h-100">
+                                            <div class="col-12 p-0 mb-3">
+                                                <a href="product.html">
+                                                    <img src="images/image-4.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b>Sizes available</b> <br> <ol><li>1</li><li>2</li></ol>">
+                                                </a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                <a href="product.html" class="product-name">Dell Alienware Area 51</a>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                    <span class="product-price">
+                                                        $4,500
+                                                    </span>
+                                            </div>
+                                            <div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
+                                            </div>
+											<div class="col-12 mb-3 align-self-end">
+                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-heart mr-2"></i>Add to wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Product -->
+								</div>
                             </div>
-                            <div class="row">
-
-                                <!-- Product -->
-                                <div class="col-xl-2 col-lg-3 col-sm-6 my-3">
-                                    <div class="col-12 bg-white text-center h-100 product-item">
-                                        <div class="row h-100">
-                                            <div class="col-12 p-0 mb-3">
-                                                <a href="product.html">
-                                                    <img src="images/image-1.jpg" class="img-fluid">
-                                                </a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                <a href="product.html" class="product-name">Sony Alpha DSLR Camera</a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                    <span class="product-price-old">
-                                                        $500
-                                                    </span>
-                                                <br>
-                                                <span class="product-price">
-                                                        $500
-                                                    </span>
-                                            </div>
-                                            <div class="col-12 mb-3 align-self-end">
-                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Product -->
-
-                                <!-- Product -->
-                                <div class="col-xl-2 col-lg-3 col-sm-6 my-3">
-                                    <div class="col-12 bg-white text-center h-100 product-item">
-                                        <div class="row h-100">
-                                            <div class="col-12 p-0 mb-3">
-                                                <a href="product.html">
-                                                    <img src="images/image-2.jpg" class="img-fluid">
-                                                </a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                <a href="product.html" class="product-name">Optoma 4K HDR Projector</a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                    <span class="product-price">
-                                                        $1,500
-                                                    </span>
-                                            </div>
-                                            <div class="col-12 mb-3 align-self-end">
-                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Product -->
-
-                                <!-- Product -->
-                                <div class="col-xl-2 col-lg-3 col-sm-6 my-3">
-                                    <div class="col-12 bg-white text-center h-100 product-item">
-                                        <div class="row h-100">
-                                            <div class="col-12 p-0 mb-3">
-                                                <a href="product.html">
-                                                    <img src="images/image-3.jpg" class="img-fluid">
-                                                </a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                <a href="product.html" class="product-name">HP Envy Specter 360</a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                <div class="product-price-old">
-                                                    $2,800
-                                                </div>
-                                                <span class="product-price">
-                                                        $2,500
-                                                    </span>
-                                            </div>
-                                            <div class="col-12 mb-3 align-self-end">
-                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Product -->
-
-                                <!-- Product -->
-                                <div class="col-xl-2 col-lg-3 col-sm-6 my-3">
-                                    <div class="col-12 bg-white text-center h-100 product-item">
-                                        <div class="row h-100">
-                                            <div class="col-12 p-0 mb-3">
-                                                <a href="product.html">
-                                                    <img src="images/image-4.jpg" class="img-fluid">
-                                                </a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                <a href="product.html" class="product-name">Dell Alienware Area 51</a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                    <span class="product-price">
-                                                        $4,500
-                                                    </span>
-                                            </div>
-                                            <div class="col-12 mb-3 align-self-end">
-                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Product -->
-
-                                <!-- Product -->
-                                <div class="col-xl-2 col-lg-3 col-sm-6 my-3">
-                                    <div class="col-12 bg-white text-center h-100 product-item">
-                                        <div class="row h-100">
-                                            <div class="col-12 p-0 mb-3">
-                                                <a href="product.html">
-                                                    <img src="images/image-1.jpg" class="img-fluid">
-                                                </a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                <a href="product.html" class="product-name">Sony Alpha DSLR Camera</a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                    <span class="product-price-old">
-                                                        $500
-                                                    </span>
-                                                <br>
-                                                <span class="product-price">
-                                                        $500
-                                                    </span>
-                                            </div>
-                                            <div class="col-12 mb-3 align-self-end">
-                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Product -->
-
-                                <!-- Product -->
-                                <div class="col-xl-2 col-lg-3 col-sm-6 my-3">
-                                    <div class="col-12 bg-white text-center h-100 product-item">
-                                        <div class="row h-100">
-                                            <div class="col-12 p-0 mb-3">
-                                                <a href="product.html">
-                                                    <img src="images/image-2.jpg" class="img-fluid">
-                                                </a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                <a href="product.html" class="product-name">Optoma 4K HDR Projector</a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                    <span class="product-price">
-                                                        $1,500
-                                                    </span>
-                                            </div>
-                                            <div class="col-12 mb-3 align-self-end">
-                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Product -->
-
-                                <!-- Product -->
-                                <div class="col-xl-2 col-lg-3 col-sm-6 my-3">
-                                    <div class="col-12 bg-white text-center h-100 product-item">
-                                        <div class="row h-100">
-                                            <div class="col-12 p-0 mb-3">
-                                                <a href="product.html">
-                                                    <img src="images/image-3.jpg" class="img-fluid">
-                                                </a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                <a href="product.html" class="product-name">HP Envy Specter 360</a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                <div class="product-price-old">
-                                                    $2,800
-                                                </div>
-                                                <span class="product-price">
-                                                        $2,500
-                                                    </span>
-                                            </div>
-                                            <div class="col-12 mb-3 align-self-end">
-                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Product -->
-
-                                <!-- Product -->
-                                <div class="col-xl-2 col-lg-3 col-sm-6 my-3">
-                                    <div class="col-12 bg-white text-center h-100 product-item">
-                                        <div class="row h-100">
-                                            <div class="col-12 p-0 mb-3">
-                                                <a href="product.html">
-                                                    <img src="images/image-4.jpg" class="img-fluid">
-                                                </a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                <a href="product.html" class="product-name">Dell Alienware Area 51</a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                    <span class="product-price">
-                                                        $4,500
-                                                    </span>
-                                            </div>
-                                            <div class="col-12 mb-3 align-self-end">
-                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Product -->
-
-                                <!-- Product -->
-                                <div class="col-xl-2 col-lg-3 col-sm-6 my-3">
-                                    <div class="col-12 bg-white text-center h-100 product-item">
-                                        <div class="row h-100">
-                                            <div class="col-12 p-0 mb-3">
-                                                <a href="product.html">
-                                                    <img src="images/image-1.jpg" class="img-fluid">
-                                                </a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                <a href="product.html" class="product-name">Sony Alpha DSLR Camera</a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                    <span class="product-price-old">
-                                                        $500
-                                                    </span>
-                                                <br>
-                                                <span class="product-price">
-                                                        $500
-                                                    </span>
-                                            </div>
-                                            <div class="col-12 mb-3 align-self-end">
-                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Product -->
-
-                                <!-- Product -->
-                                <div class="col-xl-2 col-lg-3 col-sm-6 my-3">
-                                    <div class="col-12 bg-white text-center h-100 product-item">
-                                        <div class="row h-100">
-                                            <div class="col-12 p-0 mb-3">
-                                                <a href="product.html">
-                                                    <img src="images/image-2.jpg" class="img-fluid">
-                                                </a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                <a href="product.html" class="product-name">Optoma 4K HDR Projector</a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                    <span class="product-price">
-                                                        $1,500
-                                                    </span>
-                                            </div>
-                                            <div class="col-12 mb-3 align-self-end">
-                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Product -->
-
-                                <!-- Product -->
-                                <div class="col-xl-2 col-lg-3 col-sm-6 my-3">
-                                    <div class="col-12 bg-white text-center h-100 product-item">
-                                        <div class="row h-100">
-                                            <div class="col-12 p-0 mb-3">
-                                                <a href="product.html">
-                                                    <img src="images/image-3.jpg" class="img-fluid">
-                                                </a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                <a href="product.html" class="product-name">HP Envy Specter 360</a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                <div class="product-price-old">
-                                                    $2,800
-                                                </div>
-                                                <span class="product-price">
-                                                        $2,500
-                                                    </span>
-                                            </div>
-                                            <div class="col-12 mb-3 align-self-end">
-                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Product -->
-
-                                <!-- Product -->
-                                <div class="col-xl-2 col-lg-3 col-sm-6 my-3">
-                                    <div class="col-12 bg-white text-center h-100 product-item">
-                                        <div class="row h-100">
-                                            <div class="col-12 p-0 mb-3">
-                                                <a href="product.html">
-                                                    <img src="images/image-4.jpg" class="img-fluid">
-                                                </a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                <a href="product.html" class="product-name">Dell Alienware Area 51</a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                    <span class="product-price">
-                                                        $4,500
-                                                    </span>
-                                            </div>
-                                            <div class="col-12 mb-3 align-self-end">
-                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Product -->
-
-                                <!-- Product -->
-                                <div class="col-xl-2 col-lg-3 col-sm-6 my-3">
-                                    <div class="col-12 bg-white text-center h-100 product-item">
-                                        <div class="row h-100">
-                                            <div class="col-12 p-0 mb-3">
-                                                <a href="product.html">
-                                                    <img src="images/image-1.jpg" class="img-fluid">
-                                                </a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                <a href="product.html" class="product-name">Sony Alpha DSLR Camera</a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                    <span class="product-price-old">
-                                                        $500
-                                                    </span>
-                                                <br>
-                                                <span class="product-price">
-                                                        $500
-                                                    </span>
-                                            </div>
-                                            <div class="col-12 mb-3 align-self-end">
-                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Product -->
-
-                                <!-- Product -->
-                                <div class="col-xl-2 col-lg-3 col-sm-6 my-3">
-                                    <div class="col-12 bg-white text-center h-100 product-item">
-                                        <div class="row h-100">
-                                            <div class="col-12 p-0 mb-3">
-                                                <a href="product.html">
-                                                    <img src="images/image-2.jpg" class="img-fluid">
-                                                </a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                <a href="product.html" class="product-name">Optoma 4K HDR Projector</a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                    <span class="product-price">
-                                                        $1,500
-                                                    </span>
-                                            </div>
-                                            <div class="col-12 mb-3 align-self-end">
-                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Product -->
-
-                                <!-- Product -->
-                                <div class="col-xl-2 col-lg-3 col-sm-6 my-3">
-                                    <div class="col-12 bg-white text-center h-100 product-item">
-                                        <div class="row h-100">
-                                            <div class="col-12 p-0 mb-3">
-                                                <a href="product.html">
-                                                    <img src="images/image-3.jpg" class="img-fluid">
-                                                </a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                <a href="product.html" class="product-name">HP Envy Specter 360</a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                <div class="product-price-old">
-                                                    $2,800
-                                                </div>
-                                                <span class="product-price">
-                                                        $2,500
-                                                    </span>
-                                            </div>
-                                            <div class="col-12 mb-3 align-self-end">
-                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Product -->
-
-                                <!-- Product -->
-                                <div class="col-xl-2 col-lg-3 col-sm-6 my-3">
-                                    <div class="col-12 bg-white text-center h-100 product-item">
-                                        <div class="row h-100">
-                                            <div class="col-12 p-0 mb-3">
-                                                <a href="product.html">
-                                                    <img src="images/image-4.jpg" class="img-fluid">
-                                                </a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                <a href="product.html" class="product-name">Dell Alienware Area 51</a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                    <span class="product-price">
-                                                        $4,500
-                                                    </span>
-                                            </div>
-                                            <div class="col-12 mb-3 align-self-end">
-                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Product -->
-
-                                <!-- Product -->
-                                <div class="col-xl-2 col-lg-3 col-sm-6 my-3">
-                                    <div class="col-12 bg-white text-center h-100 product-item">
-                                        <div class="row h-100">
-                                            <div class="col-12 p-0 mb-3">
-                                                <a href="product.html">
-                                                    <img src="images/image-3.jpg" class="img-fluid">
-                                                </a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                <a href="product.html" class="product-name">HP Envy Specter 360</a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                <div class="product-price-old">
-                                                    $2,800
-                                                </div>
-                                                <span class="product-price">
-                                                        $2,500
-                                                    </span>
-                                            </div>
-                                            <div class="col-12 mb-3 align-self-end">
-                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Product -->
-
-                                <!-- Product -->
-                                <div class="col-xl-2 col-lg-3 col-sm-6 my-3">
-                                    <div class="col-12 bg-white text-center h-100 product-item">
-                                        <div class="row h-100">
-                                            <div class="col-12 p-0 mb-3">
-                                                <a href="product.html">
-                                                    <img src="images/image-4.jpg" class="img-fluid">
-                                                </a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                <a href="product.html" class="product-name">Dell Alienware Area 51</a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                    <span class="product-price">
-                                                        $4,500
-                                                    </span>
-                                            </div>
-                                            <div class="col-12 mb-3 align-self-end">
-                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Product -->
-
-                                <!-- Product -->
-                                <div class="col-xl-2 col-lg-3 col-sm-6 my-3">
-                                    <div class="col-12 bg-white text-center h-100 product-item">
-                                        <div class="row h-100">
-                                            <div class="col-12 p-0 mb-3">
-                                                <a href="product.html">
-                                                    <img src="images/image-1.jpg" class="img-fluid">
-                                                </a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                <a href="product.html" class="product-name">Sony Alpha DSLR Camera</a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                    <span class="product-price-old">
-                                                        $500
-                                                    </span>
-                                                <br>
-                                                <span class="product-price">
-                                                        $500
-                                                    </span>
-                                            </div>
-                                            <div class="col-12 mb-3 align-self-end">
-                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Product -->
-
-                                <!-- Product -->
-                                <div class="col-xl-2 col-lg-3 col-sm-6 my-3">
-                                    <div class="col-12 bg-white text-center h-100 product-item">
-                                        <div class="row h-100">
-                                            <div class="col-12 p-0 mb-3">
-                                                <a href="product.html">
-                                                    <img src="images/image-2.jpg" class="img-fluid">
-                                                </a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                <a href="product.html" class="product-name">Optoma 4K HDR Projector</a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                    <span class="product-price">
-                                                        $1,500
-                                                    </span>
-                                            </div>
-                                            <div class="col-12 mb-3 align-self-end">
-                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Product -->
-
-                                <!-- Product -->
-                                <div class="col-xl-2 col-lg-3 col-sm-6 my-3">
-                                    <div class="col-12 bg-white text-center h-100 product-item">
-                                        <div class="row h-100">
-                                            <div class="col-12 p-0 mb-3">
-                                                <a href="product.html">
-                                                    <img src="images/image-3.jpg" class="img-fluid">
-                                                </a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                <a href="product.html" class="product-name">HP Envy Specter 360</a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                <div class="product-price-old">
-                                                    $2,800
-                                                </div>
-                                                <span class="product-price">
-                                                        $2,500
-                                                    </span>
-                                            </div>
-                                            <div class="col-12 mb-3 align-self-end">
-                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Product -->
-
-                                <!-- Product -->
-                                <div class="col-xl-2 col-lg-3 col-sm-6 my-3">
-                                    <div class="col-12 bg-white text-center h-100 product-item">
-                                        <div class="row h-100">
-                                            <div class="col-12 p-0 mb-3">
-                                                <a href="product.html">
-                                                    <img src="images/image-4.jpg" class="img-fluid">
-                                                </a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                <a href="product.html" class="product-name">Dell Alienware Area 51</a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                    <span class="product-price">
-                                                        $4,500
-                                                    </span>
-                                            </div>
-                                            <div class="col-12 mb-3 align-self-end">
-                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Product -->
-
-                                <!-- Product -->
-                                <div class="col-xl-2 col-lg-3 col-sm-6 my-3">
-                                    <div class="col-12 bg-white text-center h-100 product-item">
-                                        <div class="row h-100">
-                                            <div class="col-12 p-0 mb-3">
-                                                <a href="product.html">
-                                                    <img src="images/image-3.jpg" class="img-fluid">
-                                                </a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                <a href="product.html" class="product-name">HP Envy Specter 360</a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                <div class="product-price-old">
-                                                    $2,800
-                                                </div>
-                                                <span class="product-price">
-                                                        $2,500
-                                                    </span>
-                                            </div>
-                                            <div class="col-12 mb-3 align-self-end">
-                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Product -->
-
-                                <!-- Product -->
-                                <div class="col-xl-2 col-lg-3 col-sm-6 my-3">
-                                    <div class="col-12 bg-white text-center h-100 product-item">
-                                        <div class="row h-100">
-                                            <div class="col-12 p-0 mb-3">
-                                                <a href="product.html">
-                                                    <img src="images/image-4.jpg" class="img-fluid">
-                                                </a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                <a href="product.html" class="product-name">Dell Alienware Area 51</a>
-                                            </div>
-                                            <div class="col-12 mb-3">
-                                                    <span class="product-price">
-                                                        $4,500
-                                                    </span>
-                                            </div>
-                                            <div class="col-12 mb-3 align-self-end">
-                                                <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Product -->
-
+                            </div>
+                            </div>
                             </div>
                         </div>
                     </div>
@@ -795,20 +957,16 @@
                 <!-- Category Products -->
 
                 <div class="col-12">
-                    <nav aria-label="Page navigation example">
-                        <ul class="pagination justify-content-center">
-                            <li class="page-item disabled">
-                                <a class="page-link" href="#" tabindex="-1" aria-disabled="true"><i class="fas fa-long-arrow-alt-left"></i></a>
-                            </li>
-                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item active" aria-current="page">
-                                <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item">
-                                <a class="page-link" href="#"><i class="fas fa-long-arrow-alt-right"></i></a>
-                            </li>
-                        </ul>
+                    <nav aria-label="Page navigation example" class="float-right">
+						<ul class="pagination justify-content-center">
+        <li class="page-item disabled"><a href="#" class="page-link" tabindex="-1">Previous</a></li>
+        <li class="page-item active"><a href="#" class="page-link">1</a></li>
+        <li class="page-item"><a href="#" class="page-link">2</a></li>
+        <li class="page-item"><a href="#" class="page-link">3</a></li>
+        <li class="page-item"><a href="#" class="page-link">4</a></li>
+        <li class="page-item"><a href="#" class="page-link">5</a></li>
+        <li class="page-item"><a href="#" class="page-link">Next</a></li>
+    </ul>
                     </nav>
                 </div>
 
@@ -834,13 +992,11 @@
                                         London, England
                                     </address>
                                 </div>
-                                <div class="col-12">
-                                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-                                    <a href="#" class="social-icon"><i class="fab fa-pinterest-p"></i></a>
-                                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-                                    <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
-                                </div>
+                               <div class="col-12">
+                                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                                    </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-sm-8 text-center text-sm-left mb-sm-0 mb-3">
@@ -932,6 +1088,7 @@
 </div>
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 </body>
